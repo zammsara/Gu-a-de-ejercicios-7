@@ -26,7 +26,6 @@ int main() {
 
     DNI personas[cantReg];
 
-    // Solicitar la información de cada persona
     for (int i = 0; i < cantReg; i++) {
         cout << "\nPersona " << i + 1 << ":" << endl;
         cout << "DNI: ";

@@ -18,11 +18,10 @@ typedef struct AGENDA{
 
 int main(int argc, char const *argv[])
 {
-    // Crear una instancia de la estructura Persona
+    
     system("cls||clear");
     AGENDA persona;
 
-    // Solicitar al usuario que ingrese los datos
     cout << "Ingrese el nombre: ";
     getline(cin, persona.name);
 
@@ -38,7 +37,7 @@ int main(int argc, char const *argv[])
     cout << "Ingrese su ciudad: ";
     getline(cin, persona.city);
 
-    // Abrir el archivo en modo de escritura
+    
     ofstream archivo("agendaDat.txt");
 
     if(archivo.is_open()) {
